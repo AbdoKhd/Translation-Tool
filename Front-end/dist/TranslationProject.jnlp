@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TranslationProject.jnlp">
+  <information>
+    <title>TranslationProject</title>
+    <vendor>Oracle</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TranslationProject.jar" size="53705" download="eager" />
+    <jar href="lib/json-20230227.jar" size="76880" download="eager" />
+    <jar href="lib/mysql-connector-java-8.0.19.jar" size="2463993" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <jfx:javafx-desc  width="700" height="550" main-class="main.Main"  name="TranslationProject" />
+  <update check="background"/>
+</jnlp>
